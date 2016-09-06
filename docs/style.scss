@@ -114,7 +114,6 @@ h4 {
 	text-align: left;
 	padding: 15px;
 	border-bottom: 1px solid #FFFFFF;
-	height: 80px;
 }
 
 #banner-img { display: none; }
@@ -567,9 +566,8 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $white;
   cursor: pointer;
-  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -577,7 +575,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $white;
   font-size: 16px;
 
   @include mobile {
@@ -587,8 +585,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  margin-top: 23px;
   font-size: 18px;
 
   @include mobile {
